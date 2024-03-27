@@ -6,7 +6,7 @@ This project aims to re-implement [DeiT](https://arxiv.org/abs/2012.12877) and [
 
 ## Pretrained Checkpoints
 
-We have trained ViTs using both DeiT and DeiT-III recipes. All experiments were done on a `v4-64` pod slice, and you can see the training details in the [wandb logs](https://wandb.ai/affjljoo3581/deit3-jax)
+We have trained ViTs using both DeiT and DeiT-III recipes. All experiments were done on a `v4-64` pod slice, and you can see the training details in the [wandb logs](https://wandb.ai/affjljoo3581/deit3-jax).
 
 ### DeiT Reproduction
 | Name | Data | Resolution | Epochs | Time | Reimpl. | Original | Config | Wandb | Model |
