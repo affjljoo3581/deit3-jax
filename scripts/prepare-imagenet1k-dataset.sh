@@ -14,4 +14,4 @@
 
 seq -f "%04g" 0 1023 | xargs -P 0 -i wget https://huggingface.co/datasets/timm/imagenet-1k-wds/resolve/main/imagenet1k-train-{}.tar --header "Authorization:Bearer $HF_TOKEN"
 seq -f "%02g" 0 63 | xargs -P 0 -i wget https://huggingface.co/datasets/timm/imagenet-1k-wds/resolve/main/imagenet1k-validation-{}.tar --header "Authorization:Bearer $HF_TOKEN"
-gsutil -m cp *.tar $GCS_DATASET_PATH/imagenet-1k-wds/
+gsutil -m cp *.tar $GCS_DATASET_DIR/imagenet-1k-wds/

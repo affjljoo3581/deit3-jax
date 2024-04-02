@@ -13,4 +13,4 @@
 # limitations under the License.
 
 seq -f "%04g" 0 2047 | xargs -P 0 -i wget https://huggingface.co/datasets/timm/imagenet-w21-wds/resolve/main/imagenet_w21-train-{}.tar --header "Authorization:Bearer $HF_TOKEN"
-gsutil -m cp *.tar $GCS_DATASET_PATH/imagenet-w21-wds/
+gsutil -m cp *.tar $GCS_DATASET_DIR/imagenet-w21-wds/
