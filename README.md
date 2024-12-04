@@ -199,9 +199,9 @@ After converting `.msgpack` to `.pth`, you can load it with timm:
 * `--pretrained-ckpt`: Pretrained model path to load from.
 * `--label-mapping`: Label mapping file to reuse the pretrained classification head for transfer learning.
 
-# License
+## License
 
 This repository is released under the Apache 2.0 license as found in the [LICENSE](./LICENSE) file.
 
-# Acknowledgement
+## Acknowledgement
 Thanks to the [TPU Research Cloud](https://sites.research.google/trc/about/) program for providing resources. All models are trained on the TPU `v4-64` pod slice.
