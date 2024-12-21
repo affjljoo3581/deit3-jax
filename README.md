@@ -199,6 +199,18 @@ After converting `.msgpack` to `.pth`, you can load it with timm:
 * `--pretrained-ckpt`: Pretrained model path to load from.
 * `--label-mapping`: Label mapping file to reuse the pretrained classification head for transfer learning.
 
+## Citation
+```bibtex
+@misc{park2024deit3jax,
+  author = {Jungwoo Park},
+  title = {deit3-jax},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/affjljoo3581/deit3-jax}}
+}
+```
+
 ## License
 
 This repository is released under the Apache 2.0 license as found in the [LICENSE](./LICENSE) file.
